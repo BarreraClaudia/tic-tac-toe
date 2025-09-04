@@ -228,6 +228,32 @@ button {
   border: 3px solid #3ba9f2;
 }
 
+button:hover {
+  animation: shake 0.4s ease-out;
+}
+
+@keyframes shake {
+  0% {
+    transform: skewX(-10deg);
+  }
+
+  25% {
+    transform: skewX(10deg);
+  }
+
+  50% {
+    transform: skewX(-10deg);
+  }
+
+  75% {
+    transform: skewX(10deg);
+  }
+
+  100% {
+    transform: skewX(-10deg);
+  }
+}
+
 button:disabled {
   cursor: not-allowed;
   background-color: #36315d;
