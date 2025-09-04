@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="icon" type="img/png" href="assets/imgs/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tic Tac Toe</h1>
+    </header>
+
+    <main>
+        <div class="player-container player-x-container">
+            <img src="assets/imgs/player-x-icon.png" alt="Player X Icon" width="100">
+            <h4>Player X</h4>
+            <p class="player-x-score">Score: 0</p>
+        </div>
+
+        <div class="board-container">
+            <div class="square" data-index="0"></div>
+            <div class="square" data-index="1"></div>
+            <div class="square" data-index="2"></div>
+            <div class="square" data-index="3"></div>
+            <div class="square" data-index="4"></div>
+            <div class="square" data-index="5"></div>
+            <div class="square" data-index="6"></div>
+            <div class="square" data-index="7"></div>
+            <div class="square" data-index="8"></div>
+            <div id="strike" class="strike"></div>
+        </div>
+
+        <div class="player-container player-o-container">
+            <img src="assets/imgs/player-o-icon.png" alt="Player O Icon" width="100">
+            <h4>Player O</h4>
+            <p class="player-o-score">Score: 0</p>
+        </div>
+    </main>
+
+    <h3 class="current-player">Click start to play!</h3>
+
+    <div class="btn-container">
+        <button type="button" class="start-btn">Start</button>
+        <button type="button" class="reset-btn">Reset</button>
+    </div>
+
+    <footer>
+        <a href="https://www.freepik.com/icon/tic-tac-toe_6060739#fromView=search&page=1&position=95&uuid=1c4b932e-17d6-4052-a897-b83107d1b7ff"
+            target="_blank" rel="noopener noreferrer">Icon
+            by Freepik</a>
+
+        <span>/</span>
+
+        <a href="https://www.freepik.com/icon/filter_4216826#fromView=family&page=1&position=12&uuid=abe91976-7170-4117-beb3-a995dabe0638"
+            target="_blank" rel="noopener noreferrer"">Icon
+            by Freepik</a>
+
+        <span>/</span>
+
+        <a href="
+            https://www.freepik.com/icon/bear_6202996#fromView=family&page=1&position=0&uuid=f8bef2b2-e798-4616-bc73-4775b2dc981f"
+            target="_blank" rel="noopener noreferrer">Icon
+            by Freepik</a>
+
+        <span>/</span>
+
+        Sound Effect by <a
+            href="https://pixabay.com/users/floraphonic-38928062/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=185099"
+            target="_blank" rel="noopener noreferrer">floraphonic</a>
+        from <a
+            href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=185099"
+            target="_blank" rel="noopener noreferrer">Pixabay</a>
+
+        <span>/</span>
+
+        Sound Effect by <a
+            href="https://pixabay.com/users/make_more_sound-35032787/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=145827"
+            target="_blank" rel="noopener noreferrer">Jesse
+            Grum</a> from <a
+            href="https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=145827"
+            target="_blank" rel="noopener noreferrer">Pixabay</a>
+    </footer>
+
+    <dialog>
+        <div class="game-over-container">
+            <h2 class="game-over"></h2>
+            <button type="button" class="next-match-btn">Next Match</button>
+        </div>
+    </dialog>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
